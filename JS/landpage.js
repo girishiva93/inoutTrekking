@@ -83,4 +83,14 @@ $(document).ready(function(){
         delay: 3000,
         easing: 'easeInOutQuart'
     });
+    anime({
+        targets: '.about-section',
+       
+    });
 })
+
+AOS.init({
+    duration: 1000,
+    offset:400,
+});
+

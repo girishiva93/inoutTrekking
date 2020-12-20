@@ -183,12 +183,13 @@ nav .responsive-button a i {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  overflow: hidden !important;
 }
 .about-section{
+  overflow: hidden;
   background: url(/IMG/about.jpg) no-repeat left;
   background-size: 55%;
   background-color: #fdfdfd;
-  overflow: hidden;
   padding: 100px 0;
 }
 
@@ -199,6 +200,7 @@ nav .responsive-button a i {
   padding-top: 50px;
   padding-left: 30px;
   padding-bottom: 40px;
+  overflow: hidden;
 }
 
 .inner-container h1{
