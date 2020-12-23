@@ -93,4 +93,9 @@ AOS.init({
     duration: 1000,
     offset:400,
 });
+AOS.init({
+    targets: '.fade-right',
+    duration: 1000,
+    offset:400,
+});
 
