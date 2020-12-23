@@ -272,8 +272,8 @@ nav .responsive-button a i {
 }
 .event-date{
   position: absolute;
-    top: 2%;
-    left: 82%;
+    top: -1%;
+    left: 85%;
     width: 70px;
     height: 70px;
     color: #fff;
