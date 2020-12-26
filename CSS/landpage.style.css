@@ -372,3 +372,84 @@ nav .responsive-button a i {
   font-weight: 500;
 }
 /* service end responsive */
+/* Trending Blog */
+ .trending-news-row{
+  content: "";
+  display: table;
+  clear: both;
+  margin-top: 30px;
+}
+.trending-news-col{
+  float: left;
+  width: 69%; 
+  margin-right: 15px;
+  background-color: white;
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2); */
+}
+.trending-news-col-left{
+  float: left;
+  width: 46.7%; 
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: white;
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2); */
+}
+.trending-subs-feed-col{
+  width: 25%;
+  float: left;
+}
+.subscribe{
+ font-size: 25px;
+ position: relative;
+ margin-bottom: 20px;
+}
+.subscribe::before{
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  bottom: -3px;
+}
+.ad{
+  text-align: justify;
+  margin-bottom: 30px;
+}
+.sub-name,.sub-email{
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 20px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-bottom: 20px;
+  margin-left: 0%;
+}
+.submit{
+  background: #0078ff;
+  border: 0;
+  margin-left: 25%;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+.submit:hover{
+  box-shadow: 0 0 0 4px #cde1f8;
+  background: #0078ff;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+.name{
+  color: red !important;
+}
+.text-img-title {
+  cursor: pointer;
+  font-family: 'Nova Oval', cursive;
+}
+.text-img-title:hover {
+  color: #0078ff;
+}
