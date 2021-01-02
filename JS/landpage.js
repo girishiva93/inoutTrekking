@@ -1,8 +1,3 @@
-function displayList(){
-    var responsive = document.getElementById('nav-responsive-items');
-    responsive.classList.toggle("nav-responsive-active")
-  }
-
 // Hero Slider Start from Here 
 $(document).ready(function(){
     var mySwiper = new Swiper('.swiper-container', {
