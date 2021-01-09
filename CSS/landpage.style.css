@@ -554,8 +554,8 @@
 }
 .trending-news-col{
   float: left;
-  width: 100%; 
-  margin-right: 15px;
+  width: 90%; 
+  margin-left: 5%;
   background-color: white;
   /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2); */
 }
@@ -569,8 +569,9 @@
   /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2); */
 }
 .trending-subs-feed-col{
-  width: 100%;
+  width: 90%;
   float: left;
+  margin-left: 5%;
 }
 .about-us{
   font-size: 50px;
