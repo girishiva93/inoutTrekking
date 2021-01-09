@@ -211,8 +211,32 @@
   margin-left: 20px;
   margin-right: 20px;
 }
+/* Event end */
+/* Responsive for Event */
+@media screen and (max-width:1200px){
+ 
+}
+
+@media screen and (max-width:1000px){
+
+}
+
+@media screen and (max-width:600px){
+  .event-col {
+    float: left;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+}
+/* Responsive end here for event */
 /* Why with us?? */
-/* about end */
 .services{
   margin-top: 40px;
   background: white;
@@ -261,6 +285,35 @@
   font-weight: 500;
 }
 /* service end responsive */
+/* Responsive design for Service */
+@media screen and (max-width:1200px){
+ 
+}
+
+@media screen and (max-width:1000px){
+
+}
+
+@media screen and (max-width:600px){
+  .services{
+    margin-top: 40px;
+    background: white;
+    text-align: center;
+  }
+  .service{
+    display: inline-block;
+    width:100%;
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .service:hover{
+    background: #ddd;
+  }
+}
+/* Responsive design for service end here */
 /* Trending Blog */
  .trending-news-row{
   content: "";
@@ -361,7 +414,7 @@
   content: "";
   display: table;
   clear: both;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .trending-news-col{
   float: left;
@@ -375,7 +428,7 @@
   width: 100%; 
   margin-right: 0px;
   margin-left: 0px;
-  margin-top: 20px;
+  margin-top: 0px;
   background-color: white;
   /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2); */
 }
@@ -383,5 +436,11 @@
   width: 100%;
   float: left;
 }
-
+.about-us{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  overflow: hidden !important;
+}
 }
