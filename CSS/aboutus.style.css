@@ -240,13 +240,68 @@
       text-align: center;
     }
   }
+/* Event end */
 /* Responsive for Event */
 @media screen and (max-width:1200px){
  
 }
 
 @media screen and (max-width:1000px){
+  .event-col {
+    float: left;
+    width: 31%;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 30px;
+  }
+  .event-title{
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'Nova Oval', cursive;
+  }
+  .trekking-title{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    overflow: hidden !important;
+  }
+  .event-date{
+    position: absolute;
+      left: 74%;
+      width: 60px;
+      height: 60px;
+      color: #fff;
+      font-size: 17px;
+      background-color: #ff7236;
+      border-radius: 50%;
+      text-align: center;
+      padding-top: 5px;
+      transition: width .4s;
+      transition: height .3s;
+  }
 
+  .event-price{
+    background-color: #4CAF50;
+    width: 70px;
+    position: absolute;
+    color: white;
+    top: 28%;
+    left: 65%;
+    box-sizing: content-box;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 22px;
+  }
 }
 
 @media screen and (max-width:600px){
