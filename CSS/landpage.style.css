@@ -127,7 +127,7 @@
       padding: 0;
   }
   .inner-container{
-      padding: 60px;
+      padding: 10px;
   }
 }
 /* About Us End */
@@ -341,4 +341,47 @@
 }
 .text-img-title:hover {
   color: #0078ff;
+}
+/* Responsive Design for Blog */
+@media screen and (max-width:1200px){
+ 
+}
+
+@media screen and (max-width:1000px){
+
+}
+
+@media screen and (max-width:600px){
+/* Trending Blog */
+.event-container{
+  overflow: hidden;
+  padding: 0px;
+}
+.trending-news-row{
+  content: "";
+  display: table;
+  clear: both;
+  margin-top: 30px;
+}
+.trending-news-col{
+  float: left;
+  width: 100%; 
+  margin-right: 15px;
+  background-color: white;
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2); */
+}
+.trending-news-col-left{
+  float: left;
+  width: 100%; 
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 20px;
+  background-color: white;
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2); */
+}
+.trending-subs-feed-col{
+  width: 100%;
+  float: left;
+}
+
 }
