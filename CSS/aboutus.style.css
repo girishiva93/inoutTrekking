@@ -173,6 +173,7 @@
       height: 620px;
       min-height: 100%;
     }
+    
   }
   @media (max-width: 1085px) {
     #wrapper{
@@ -247,6 +248,9 @@
 }
 
 @media screen and (max-width:1000px){
+  .aboutus-container{
+    margin-top: 120px;
+  }
   .event-col {
     float: left;
     width: 31%;
