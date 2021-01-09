@@ -224,14 +224,14 @@
 @media screen and (max-width:600px){
   .event-col {
     float: left;
-    width: 100%;
+    width: 90%;
     position: relative;
     background-color: #fff;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.3s;
     border-radius: 20px;
     overflow: hidden;
-    margin-right: 20px;
+    margin-left: 20px;
     margin-top: 30px;
   }
 }
