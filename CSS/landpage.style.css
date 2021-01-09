@@ -85,10 +85,10 @@
     float: left;
     background-color: white;
     width: 100%;
-    padding: 100px;
+    padding: 30px;
     padding-bottom: 20px;
     z-index: 99;
-    margin-top: 300px;
+    margin-top: 350px;
   }
   .slide-left h6{
     font-size: 28px;
@@ -106,7 +106,7 @@
   .slide-left a{
     position: relative;
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 11px;
     font-size: 16px;
     font-weight: 600;
     color: #272643;
