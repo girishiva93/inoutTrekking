@@ -1,0 +1,181 @@
+.event-row:after {
+    content: "";
+    display: table;
+    clear: both;
+    position: relative;
+  }
+  .event-container{
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 100px;
+  }
+  .event-col {
+    float: left;
+    width: 31%;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .event_img{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+  }
+  .event-date{
+    position: absolute;
+      top: -1%;
+      left: 85%;
+      width: 70px;
+      height: 70px;
+      color: #fff;
+      font-size: 19px;
+      background-color: #ff7236;
+      border-radius: 50%;
+      text-align: center;
+      padding-top: 5px;
+      transition: width .3s;
+      transition: height .3s;
+  }
+  .event-booking{
+    width: 100%;
+    padding: 16px 32px;
+    background-color: #4CAF50; 
+    color: black; 
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+  }
+  .event-title{
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: 'Nova Oval', cursive;
+  }
+  .event-price{
+    background-color: #4CAF50;
+    width: 100px;
+    position: absolute;
+    color: white;
+    top: 49%;
+    left: 75%;
+    box-sizing: content-box;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 30px;
+  }
+  .event-location{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  /* Event end */
+  /* Responsive for Event */
+  @media screen and (max-width:1200px){
+   
+  }
+  
+  @media screen and (max-width:1000px){
+    .event-col {
+      float: left;
+      width: 31%;
+      position: relative;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      transition: box-shadow 0.3s;
+      border-radius: 20px;
+      overflow: hidden;
+      margin-left: 5px;
+      margin-right: 10px;
+      margin-top: 30px;
+    }
+    .event-title{
+      font-size: 20px;
+      margin-left: 20px;
+      font-family: 'Nova Oval', cursive;
+    }
+    .event-date{
+      position: absolute;
+        left: 74%;
+        width: 60px;
+        height: 60px;
+        color: #fff;
+        font-size: 19px;
+        background-color: #ff7236;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 5px;
+        transition: width .4s;
+        transition: height .3s;
+    }
+  
+    .event-price{
+      background-color: #4CAF50;
+      width: 70px;
+      position: absolute;
+      color: white;
+      top: 27%;
+      left: 65%;
+      box-sizing: content-box;
+      text-align: center;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 5px;
+      padding-right: 10px;
+      font-size: 22px;
+    }
+  }
+  
+  @media screen and (max-width:600px){
+    .event-col {
+      float: left;
+      width: 90%;
+      position: relative;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      transition: box-shadow 0.3s;
+      border-radius: 20px;
+      overflow: hidden;
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+    .event-date{
+      position: absolute;
+        left: 82%;
+        width: 70px;
+        height: 70px;
+        color: #fff;
+        font-size: 19px;
+        background-color: #ff7236;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 5px;
+        transition: width .4s;
+        transition: height .3s;
+    }
+  
+    .event-price{
+      background-color: #4CAF50;
+      width: 100px;
+      position: absolute;
+      color: white;
+      top: 43%;
+      left: 70%;
+      box-sizing: content-box;
+      text-align: center;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 5px;
+      padding-right: 10px;
+      font-size: 30px;
+    }
+  }
