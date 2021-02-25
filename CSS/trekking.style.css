@@ -37,7 +37,7 @@
       background-color: #ff7236;
       border-radius: 50%;
       text-align: center;
-      padding-top: 5px;
+      padding-top: 10px;
       transition: width .3s;
       transition: height .3s;
   }
