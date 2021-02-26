@@ -249,8 +249,9 @@ body{
     padding: 10px 2px 12px;
     overflow: hidden;
     position: relative;
-    list-style-position: inside;
-    list-style-type: upper-alpha;
+    /* list-style-position: inside; */
+    /* list-style-type: upper-alpha; */
+    list-style: none;
 }
 
 .feature-list li {
@@ -264,19 +265,22 @@ body{
     text-align: justify;
 }
 
-.feature-list li:after {
-    background-image: url(../img/guarantee.jpg);
+.feature-list li::before {
+    content: "\f00c";
+    color: #4CAF50;
+    font-weight: 900;
     background-repeat: no-repeat;
     height: 14px;
     width: 14px;
     top: 4px;
     left: 0;
+    font-family: "Font Awesome 5 Free";
 }
 
-.feature-list>li:after {
+/* .feature-list>li::before {
     content: '';
     position: absolute;
-}
+} */
 
 .event-booking{
     width: 100%;
