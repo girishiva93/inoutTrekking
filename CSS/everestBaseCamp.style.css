@@ -1,5 +1,11 @@
 body{
     height: 2000px;
+    scroll-behavior: smooth;
+}
+#discount-offer-table{
+    transition-duration: 100s;
+    -webkit-transition: bottom 2s;
+    transition: bottom 2s;
 }
 .priceTag{
     position: fixed;
