@@ -239,12 +239,7 @@
     padding: 10px 25px 12px;
     overflow: hidden;
     position: relative; 
-}
-
-.list {
     list-style: none;
-    overflow: hidden;
-    padding: 0;
 }
 
 .feature-list li {
