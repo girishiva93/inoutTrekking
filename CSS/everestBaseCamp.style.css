@@ -239,7 +239,8 @@
     padding: 10px 25px 12px;
     overflow: hidden;
     position: relative;
-    list-style: none;
+    list-style-position: inside;
+    list-style-type: upper-alpha;
 }
 
 .feature-list li {
@@ -248,16 +249,21 @@
     font-size: 14px !important;
     position: relative;
     letter-spacing: normal;
-    padding: 0 0 0 22px;
+    padding: 0 0 0 20px;
     margin: 0 0 3px;
+    text-align: -webkit-center
 }
 
-.feature-list li::after {
-    position: absolute;
-    background-image: url(../img/guarantee.png);
+.feature-list li:after {
+    background-image: url(../img/guarantee.jpg);
     background-repeat: no-repeat;
     height: 14px;
     width: 14px;
     top: 4px;
     left: 0;
+}
+
+.feature-list>li:after {
+    content: '';
+    position: absolute;
 }
