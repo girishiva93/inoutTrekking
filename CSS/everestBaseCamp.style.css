@@ -2,10 +2,11 @@ body{
     height: 2000px;
     scroll-behavior: smooth;
 }
-#discount-offer-table{
-    transition-duration: 100s;
-    -webkit-transition: bottom 2s;
-    transition: bottom 2s;
+.discount-offer-price{
+    -webkit-transition-delay: 500ms;
+    -moz-transition-delay: 500ms;
+    -o-transition-delay: 500ms;
+    transition-delay: 500ms;
 }
 .priceTag{
     position: fixed;
