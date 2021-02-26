@@ -1,10 +1,13 @@
+body{
+    height: 2000px;
+}
 .priceTag{
-    position: relative;
+    position: fixed;
     width: 363px;
     display: block;
     margin-top: 100px;
     float: right;
-    margin-right: 140px;
+    margin-left: 70%;
     z-index: 1;
     border: solid 1px #4594b3;
     -webkit-box-shadow: 0 2px 6px 0 rgb(27 43 58 / 15%);
