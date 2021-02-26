@@ -251,7 +251,7 @@
     letter-spacing: normal;
     padding: 0 0 0 20px;
     margin: 0 0 3px;
-    text-align: -webkit-center
+    text-align: justify;
 }
 
 .feature-list li:after {
@@ -266,4 +266,31 @@
 .feature-list>li:after {
     content: '';
     position: absolute;
+}
+
+.event-booking{
+    width: 100%;
+    padding: 16px 32px;
+    background-color: #4CAF50; 
+    color: black; 
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+
+.askQuestion{
+    width: 100%;
+    padding: 16px 32px;
+    background-color: #4CAF50; 
+    color: black; 
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    margin-top: 5px;
 }
