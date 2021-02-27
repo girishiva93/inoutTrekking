@@ -2,6 +2,37 @@ body{
     height: 2000px;
     scroll-behavior: smooth;
 }
+.heroimg-row{
+    content: "";
+    display: table;
+    clear: both;
+}
+.heroimg-col{
+    float: left;
+    width: 80%;
+}
+.heroimg2-col{
+    float: left;
+    width: 20%;
+}
+.heroimg{
+    margin-top: 100px;
+    margin-left: 5px;
+    position: relative;
+}
+.trek-title{
+    width: 43%;
+    height: 71px;
+    background-color: black;
+    position: absolute;
+    margin-top: -76px;
+    margin-left: 5px;
+    color: white;
+    padding-top: 6px;
+    padding-left: 17px;
+    font-size: 30px;
+    text-decoration: underline;
+}
 .discount-offer-price{
     -webkit-transition-delay: 500ms;
     -moz-transition-delay: 500ms;
@@ -12,9 +43,9 @@ body{
     position: fixed;
     width: 270px;
     display: block;
-    margin-top: 130px;
+    margin-top: -45%;
     float: right;
-    margin-left: 80%;
+    margin-left: 81%;
     z-index: 1;
     border: solid 1px #4594b3;
     -webkit-box-shadow: 0 2px 6px 0 rgb(27 43 58 / 15%);
