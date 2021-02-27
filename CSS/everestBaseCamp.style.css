@@ -505,6 +505,34 @@ body{
     margin-right: 20px;
   }
 
+  .trip-col {
+    float: left;
+    width: 21%;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+    transition: box-shadow 0.3s;
+    overflow: hidden;
+    margin-right: 14px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 14px;
+  }
+  
+  .tripreview-col{
+    float: left;
+    width: 19%;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+    transition: box-shadow 0.3s;
+    overflow: hidden;
+    margin-right: 1px;
+    margin-top: 244px;
+    margin-bottom: 15px;
+    margin-left: 279px;
+  }
+
   @media (max-width: 1125px) {
     #wrapper{
       height: 620px;
