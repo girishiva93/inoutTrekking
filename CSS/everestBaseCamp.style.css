@@ -1,5 +1,5 @@
 body{
-    height: 2000px;
+    /* height: 2000px; */
     scroll-behavior: smooth;
 }
 .heroimg-row{
@@ -130,7 +130,6 @@ body{
     color: blue;
     border: none;
     font-size: 20px;
-}
 }
 .package-price_regular-price{
     font-family: 'FreightText_BookItalic';
@@ -290,8 +289,6 @@ body{
     padding: 10px 2px 12px;
     overflow: hidden;
     position: relative;
-    /* list-style-position: inside; */
-    /* list-style-type: upper-alpha; */
     list-style: none;
 }
 
@@ -317,12 +314,6 @@ body{
     left: 0;
     font-family: "Font Awesome 5 Free";
 }
-
-/* .feature-list>li::before {
-    content: '';
-    position: absolute;
-} */
-
 .event-booking{
     width: 100%;
     padding: 6px 32px;
@@ -446,34 +437,35 @@ body{
   }
   .event-col {
     float: left;
-    width: 31%;
+    width: 25%;
     position: relative;
     background-color: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 20px rgb(0 0 0 / 30%);
     transition: box-shadow 0.3s;
     border-radius: 20px;
     overflow: hidden;
-    margin-right: 20px;
-    margin-top: 50px;
-  
+    margin-right: 14px;
+    margin-top: 1px;
+    margin-bottom: 15px;
+    margin-left: 14px;
   }
   .event_img{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
   }
   .event-date{
     position: absolute;
-      top: -1%;
-      left: 85%;
-      width: 70px;
-      height: 70px;
-      color: #fff;
-      font-size: 19px;
-      background-color: #ff7236;
-      border-radius: 50%;
-      text-align: center;
-      padding-top: 5px;
-      transition: width .3s;
-      transition: height .3s;
+    top: -1%;
+    left: 82%;
+    width: 72px;
+    height: 66px;
+    color: #fff;
+    font-size: 19px;
+    background-color: #ff7236;
+    border-radius: 25%;
+    text-align: center;
+    padding-top: 5px;
+    transition: width .3s;
+    transition: height .3s;
   }
   .event-booking{
     width: 100%;
@@ -497,7 +489,7 @@ body{
     width: 100px;
     position: absolute;
     color: white;
-    top: 50%;
+    top: 43%;
     left: 75%;
     box-sizing: content-box;
     text-align: center;
