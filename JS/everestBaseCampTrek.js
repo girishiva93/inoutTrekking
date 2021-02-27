@@ -34,8 +34,7 @@ $('#tabs-nav li').click(function(){
 
 document.getElementById("readMore").addEventListener("click",function(){
    var x =  document.getElementById("content");
-   x.style.display = 'block';
-   if(x == 'block'){
-       x.style.display = 'none';
-   }
+   var y = document.getElementById('readMore');
+    x.style.display = 'block';
+    y.style.display = 'none';
 })

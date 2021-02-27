@@ -39,6 +39,9 @@ body{
     -o-transition-delay: 500ms;
     transition-delay: 500ms;
 }
+#content{
+    margin-top: -42px;
+}
 .priceTag{
     position: fixed;
     width: 270px;
@@ -122,6 +125,13 @@ body{
     margin-right: 8px;
 }
 
+#readMore{
+    background-color: white;
+    color: blue;
+    border: none;
+    font-size: 20px;
+}
+}
 .package-price_regular-price{
     font-family: 'FreightText_BookItalic';
     font-size: 1.25rem;
@@ -408,7 +418,7 @@ body{
   }
 
   .about-des{
-      font-size: 25px;
+      font-size: 15px;
       word-spacing: 3px;
       padding:0px 20px;
       margin-bottom: 40px;
