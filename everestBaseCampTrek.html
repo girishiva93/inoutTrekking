@@ -181,8 +181,21 @@
                 </div>
 
                 <div id="tab4" class="tab-content">
-                  <!-- <img src="/img/anshu-a-0jo0TTlpqa4-unsplash.jpg" alt="" style="width: 250px; height: 250px;"> -->
-                  <p class="about-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus laborum vitae maiores blanditiis, aspernatur quis quas vero expedita pariatur, natus officiis tempore animi provident enim dolor. Nemo odit officia vero!Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus laborum vitae maiores blanditiis, aspernatur quis quas vero expedita pariatur, natus officiis tempore animi provident enim dolor. Nemo odit officia vero!Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus laborum vitae maiores blanditiis, aspernatur quis quas vero expedita pariatur, natus officiis tempore animi provident enim dolor.</div></p> 
+                  <div id="google-reviews"></div>
+
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                    <script src="js/google-places.js"></script>
+                    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBWCXUOwS5Uq3argFnC1hc_C4P6ee25lqg&signed_in=true&libraries=places"></script> <!-- it is your Google API key 'AIzaSyBzmKmgtHFnvDsDdZtIF8xIqUJX9NS9EyY' --> 
+                  <script>
+                    jQuery(document).ready(function( $ ) {
+                       $("#google-reviews").googlePlaces({
+                            placeId: 'ChIJmZFCUN4Z6zkRD512eOaNDBY' //Find placeID @: https://developers.google.com/places/place-id
+                          , render: ['reviews']
+                          , min_rating: 4
+                          , max_rows:4
+                       });
+                    });
+                  </script> 
                 </div>
 
               </div> <!-- END tabs-content -->
